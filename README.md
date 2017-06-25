@@ -1,17 +1,7 @@
-# Assignment-15.2
+# AcadGild - Web application development with React and Relay
 
-Write a GraphQL query to fetch Books from 51 to 60.
+#### To Build
+Run: `npm install`
 
-{
-  bookStore {
-    books(after: "YXJyYXljb25uZWN0aW9uOjQ5", before: "YXJyYXljb25uZWN0aW9uOjYw") {
-      edges {
-        cursor
-        node {
-          id
-          title
-        }
-      }
-    }
-  }
-}
+### To start:
+Run: `npm start`
